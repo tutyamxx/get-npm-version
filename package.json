@@ -1,0 +1,22 @@
+{
+    "name": "get-npm-version",
+    "version": "1.0.1",
+    "description": "Returns the NPM version installed in your environment",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "npm-version",
+        "get-npm-version",
+        "npmversion",
+        "npm-version"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/tutyamxx/get-npm-version"
+    },
+    "homepage": "https://github.com/tutyamxx/get-npm-version",
+    "author": "tuty",
+    "license": "MIT"
+}
