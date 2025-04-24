@@ -1,4 +1,4 @@
-const getNpmVersion = require('./index');
+const getNpmVersion = require('../index');
 const { execSync } = require('child_process');
 
 jest.mock('child_process', () => ({ execSync: jest.fn() }));
