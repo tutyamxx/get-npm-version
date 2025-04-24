@@ -1,6 +1,6 @@
 {
     "name": "get-npm-version",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "Returns the NPM version installed in your environment",
     "main": "index.js",
     "scripts": {

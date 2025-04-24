@@ -1,4 +1,4 @@
-const getNpmVersion = require('./index');
+const getNpmVersion = require('../index');
 const { execSync } = require('child_process');
 
 jest.mock('child_process', () => ({ execSync: jest.fn() }));
@@ -43,4 +43,4 @@ describe('getNpmVersion', () => {
         expect(execSync).toHaveBeenCalledWith('npm --v', { encoding: 'utf-8' });
         expect(version).toBe('');
     });
-});
+})
