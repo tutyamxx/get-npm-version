@@ -1,10 +1,10 @@
 {
     "name": "get-npm-version",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Returns the NPM version installed in your environment",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "jest"
     },
     "keywords": [
         "npm-version",
@@ -18,5 +18,8 @@
     },
     "homepage": "https://github.com/tutyamxx/get-npm-version",
     "author": "tuty",
-    "license": "MIT"
+    "license": "MIT",
+    "devDependencies": {
+        "jest": "^29.7.0"
+    }
 }
