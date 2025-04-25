@@ -16,9 +16,9 @@ describe('getNpmVersion', () => {
     });
 
     test('Should handle npm version with "v" prefix', () => {
-        execSync.mockReturnValue('16.0.0');
+        execSync.mockReturnValue('v16.0.0\n');
         const version = getNpmVersion();
-        expect(version).toBe('16.0.0');
+        expect(version).toBe('v16.0.0');
     });
 
     test('Should handle npm version without "v" prefix', () => {
