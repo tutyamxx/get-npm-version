@@ -1,6 +1,6 @@
 {
     "name": "get-npm-version",
-    "version": "1.0.9",
+    "version": "1.1.0",
     "description": "Returns the NPM version installed in your environment",
     "main": "index.js",
     "scripts": {
@@ -16,7 +16,6 @@
         "type": "git",
         "url": "https://github.com/tutyamxx/get-npm-version"
     },
-    "homepage": "https://github.com/tutyamxx/get-npm-version",
     "author": "tuty",
     "license": "MIT",
     "devDependencies": {

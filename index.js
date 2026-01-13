@@ -1,6 +1,6 @@
 /**
  *  get-npm-version - Returns the NPM version installed in your environment
- *  @version: v1.0.9
+ *  @version: v1.1.0
  *  @link: https://github.com/tutyamxx/get-npm-version
  *  @license: MIT
  **/
