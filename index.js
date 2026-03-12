@@ -1,6 +1,6 @@
 /**
  *  get-npm-version - Returns the NPM version installed in your environment
- *  @version: v1.1.2
+ *  @version: v1.1.3
  *  @link: https://github.com/tutyamxx/get-npm-version
  *  @license: MIT
  **/
@@ -20,7 +20,7 @@ const { execSync } = require('child_process');
 const getNpmVersion = () => {
     try {
         const result = execSync('npm --v', { encoding: 'utf-8' });
-        return result ? result.trim() : '';
+        return result ? result?.trim() : '';
     } catch (error) {
         return null;
     }
